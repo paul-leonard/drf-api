@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+    summaries:
+        build: .
+        command: python manage.py runserver
